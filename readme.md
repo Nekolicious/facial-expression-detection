@@ -15,6 +15,7 @@ $ pip install flask
 
 1. Clone this repository to your project
 2. Open terminal and run `$python server.py`
+3. Once you run, the app will run on your `localhost` (default `http://127.0.0.1:5000/`)
 
 ## Updating the datasets
 
