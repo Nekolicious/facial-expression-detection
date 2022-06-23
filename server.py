@@ -9,7 +9,8 @@ def index():
 
 @app.route('/scan/')
 def scanface():
-    return scan.scanExp()
+    scan.scanExp()
+    return render_template('index.html')
 
 @app.route('/test/')
 def test():
